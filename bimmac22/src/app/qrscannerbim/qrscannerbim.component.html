@@ -1,0 +1,37 @@
+<div *ngIf="!isValid">
+    <qr-scanner [debug]="false"
+                [canvasWidth]="640"
+                [canvasHeight]="480"
+                [mirror]="false"
+                [stopAfterScan]="true"
+                [updateTime]="500"
+                (onRead)="decodedOutput($event)"></qr-scanner>
+</div>
+<div *ngIf="isValid">
+    <p>Scanned Element</p>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ElementId</th>
+                    <th>Element</th>
+                    <th>Category</th>
+                    <th>Property</th>
+                    <th>Cost</th>
+                    <th style="text-align:center;">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let ele of element" style="font-size:16px;">
+                    <td>{{ele.elementid}} </td>
+                    <td>{{ele.elementname}} </td>
+                    <td>{{ele.category}}</td>
+                    <td>{{ele.property}} </td>
+                    <td>{{ele.cost}}</td>
+                    <td>{{ele.status}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

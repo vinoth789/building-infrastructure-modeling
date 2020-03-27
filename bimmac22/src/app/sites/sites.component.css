@@ -1,0 +1,84 @@
+li .glyphicon {
+    margin-right: 10px;
+}
+
+.active a {
+    background-color: #2C3E50;
+}
+
+/* Highlighting rules for nav menu items */
+li.link-active a:focus {
+    background-color: #4189C7;
+    color: white;
+}
+
+li.link-active a {
+    background-color: grey;
+    color: white;
+}
+
+
+    /* Keep the nav menu independent of scrolling and on top of other items */
+    .main-nav {
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+.logo {
+    background: url(../../assets/BIM.jpg) center/contain no repeat;
+    width: 200px;
+    transform: translateX(-50%);
+    left: 35%;
+    position: absolute;
+}
+
+@media (min-width: 768px) {
+    /* On small screens, convert the nav menu to a vertical sidebar */
+    .main-nav {
+        height: 100%;
+        width: calc(100% - 20px);
+    }
+
+    .navbar {
+        border-radius: 0px;
+        border-width: 0px;
+        height: 100%;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid #444;
+        padding: 0px;
+    }
+
+    .navbar ul {
+        float: none;
+    }
+
+    .navbar li {
+        float: none;
+        font-size: 15px;
+        margin: 6px;
+    }
+
+        .navbar li a {
+            padding: 10px 16px;
+            border-radius: 4px;
+        }
+
+    .navbar a {
+        /* If a menu item's text is too long, truncate it */
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+
+
+}

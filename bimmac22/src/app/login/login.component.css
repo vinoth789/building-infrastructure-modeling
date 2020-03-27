@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+
+body {
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    font: normal 14px Roboto,arial,sans-serif;
+}
+
+
+.form-login {
+    
+    background-color: rgba(0, 0, 0, 0.52);
+    padding: 10px 20px 20px 20px; 
+    border-radius: 15px;
+    border-color: #d2d2d2;
+    border-width: 5px;
+    box-shadow: 0 1px 0 #cfcfcf;
+}
+
+h4 {
+    border: 0 solid #fff;
+    border-bottom-width: 1px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    text-align: center;
+}
+.nav.nav-center {
+    margin: 0;
+    float: none;
+}
+
+.navbar-inner {
+    text-align: center;
+}
+
+.logo {
+    background: url(../../assets/BIM.jpg) center/contain no repeat;
+    width: 200px;
+    transform: translateX(-50%);
+    left: 35%;
+    position: absolute;
+}

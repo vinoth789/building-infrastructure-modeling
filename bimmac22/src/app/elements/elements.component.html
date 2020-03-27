@@ -1,0 +1,59 @@
+<div class="col-lg-8">
+
+    <h3 style="text-align:center;">Elements </h3>
+    <h2>{{errorMessage}}</h2>
+
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ElementId</th>
+                    <th>Element</th>
+                    <th>Category</th>
+                    <th>Property</th>
+                    <th>Cost</th>
+                    <th style="text-align:center;">Status</th>
+                    <th style="text-align:center;">History</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let element of elements" style="font-size:16px;">
+                    <td>{{element.elementid}} </td>
+                    <td>{{element.elementname}} </td>
+                    <td>{{element.category}}</td>
+                    <td>{{element.property}} </td>
+                    <td>{{element.cost}}</td>
+                    <td style="width:12%;">
+                        <div class="form-group">
+                            <form>
+                                <md-select style=" padding:0px; background: linear-gradient(lightgrey, white);" class="form-control" floatPlaceholder="never" placeholder={{element.status}} name="status" (change)="onChange(element,$event)"
+                                           #select="mdSelect">
+                                    <!-- placeholder={{element.status}} [(ngModel)]="element.status" -->
+                                    <md-option>{{element.status}} </md-option>
+                                    <md-option *ngFor="let status of statuses" [value]="status.value">
+                                        {{status.viewValue}}
+                                    </md-option>
+                                </md-select>
+                            </form>
+                        </div>
+
+
+                        <!-- <select class="form-control" id="sel1" (change)="onChange(element,$event.target.value)">
+                             <option> {{element.status}}</option>
+                             <option>Started</option>
+                             <option>In progress</option>
+                             <option>Complete</option>
+                         </select>
+                         </div>-->
+                        <!--<md-select placeholder="Status" [(ngModel)]="myStatus" floatPlaceholder="never">
+                           <md-option *ngFor="let status of statuses" [value]="status.code">{{ element.status }}</md-option>
+                        </md-select>-->
+
+                    </td>
+                    <td style="text-align:center;" (click)="onSelect(element)"><a><span class='glyphicon glyphicon-list'></span></a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+    </div>
