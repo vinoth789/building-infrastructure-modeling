@@ -1,0 +1,32 @@
+
+<div class="container-fluid">
+    <h2 style="text-align:center;">Element History</h2>
+    <h3 style="text-align:center;">{{data.elementname}}</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Not Started </td>
+                <td>{{data.elementstatus.notstarted}}</td>
+            </tr>
+            <tr>
+                <td>In Progress </td>
+                <td>{{data.elementstatus.inprogress}}</td>
+            </tr>
+            <tr>
+                <td>Completed</td>
+                <td>{{data.elementstatus.completed}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!--
+<div md-dialog-actions>
+  <button md-button class="popup-btn" (click)="dialogRef.close({ncknm: ncknm.value, stID: stID.value})">Submit</button>
+</div>
+-->
