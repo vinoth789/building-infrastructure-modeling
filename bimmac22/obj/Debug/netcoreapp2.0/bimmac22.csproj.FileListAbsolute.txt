@@ -1,0 +1,11 @@
+/Users/vinothkumarmoorthy/Projects/bimmac22/bimmac22/bin/Debug/netcoreapp2.0/bimmac22.deps.json
+/Users/vinothkumarmoorthy/Projects/bimmac22/bimmac22/bin/Debug/netcoreapp2.0/bimmac22.runtimeconfig.json
+/Users/vinothkumarmoorthy/Projects/bimmac22/bimmac22/bin/Debug/netcoreapp2.0/bimmac22.runtimeconfig.dev.json
+/Users/vinothkumarmoorthy/Projects/bimmac22/bimmac22/bin/Debug/netcoreapp2.0/bimmac22.dll
+/Users/vinothkumarmoorthy/Projects/bimmac22/bimmac22/bin/Debug/netcoreapp2.0/bimmac22.pdb
+/Users/vinothkumarmoorthy/Projects/bimmac22/bimmac22/obj/Debug/netcoreapp2.0/bimmac22.csprojResolveAssemblyReference.cache
+/Users/vinothkumarmoorthy/Projects/bimmac22/bimmac22/obj/Debug/netcoreapp2.0/bimmac22.csproj.CoreCompileInputs.cache
+/Users/vinothkumarmoorthy/Projects/bimmac22/bimmac22/obj/Debug/netcoreapp2.0/bimmac22.AssemblyInfoInputs.cache
+/Users/vinothkumarmoorthy/Projects/bimmac22/bimmac22/obj/Debug/netcoreapp2.0/bimmac22.AssemblyInfo.cs
+/Users/vinothkumarmoorthy/Projects/bimmac22/bimmac22/obj/Debug/netcoreapp2.0/bimmac22.dll
+/Users/vinothkumarmoorthy/Projects/bimmac22/bimmac22/obj/Debug/netcoreapp2.0/bimmac22.pdb

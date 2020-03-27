@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{B08CA928-8F19-4E08-BBB6-0E19889CA86C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/app/qrscannerbim/qrscannerbim.component.html">
+    <Files>
+      <File FileName="src/app/qrscannerbim/qrscannerbim.component.ts" Line="37" Column="1" />
+      <File FileName="src/app/qrscannerbim/qrscannerbim.component.html" Line="19" Column="38" />
+      <File FileName="src/app/elements/elements.component.html" Line="29" Column="75" />
+      <File FileName="Program.cs" Line="23" Column="1" />
+      <File FileName="src/app/app.component.html" Line="1" Column="32" />
+      <File FileName="src/app/home/home.component.html" Line="17" Column="23" />
+      <File FileName="src/index.html" Line="32" Column="5" />
+      <File FileName="src/app/sites/sites.component.html" Line="4" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.bimmac22 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
